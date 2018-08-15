@@ -4,7 +4,7 @@ Find the constitutive, conserved exons between species and return as gff files
 
 Usage as to get speciesA-constitutive-conserved-exons.gff 
 
-> Go to ./01_Get_constitutive_fasta/:
+>> Go to ./01_Get_constitutive_fasta/:
 
 	required files:
 		fbgn_fbtr_fbpp_fb_2018_02.tsv
@@ -36,7 +36,7 @@ Usage as to get speciesA-constitutive-conserved-exons.gff
 		speciesB-constitutive-exons.fas
 		
 
-> Go to ./02_Get_conserved_exons_gff/:
+>> Go to ./02_Get_conserved_exons_gff/:
 
 	required files:
 		speciesB-constitutive-exons.fas
@@ -53,4 +53,4 @@ Usage as to get speciesA-constitutive-conserved-exons.gff
 	>> copy speciesA-conserved-exons.gff to ./03_Get_constitutive_conserved_exons_gff/
 
 
-> Go to ./03_Get_constitutive_conserved_exons_gff/:
+>> Go to ./03_Get_constitutive_conserved_exons_gff/:
